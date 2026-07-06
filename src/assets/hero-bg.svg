@@ -1,0 +1,24 @@
+<svg width="1440" height="860" viewBox="0 0 1440 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="860" fill="#F7D9B7"/>
+  <path d="M0 612C148 560 249 608 386 553C514 501 568 377 705 367C861 356 936 506 1080 486C1214 468 1284 323 1440 315V860H0V612Z" fill="#E56B35" fill-opacity="0.28"/>
+  <path d="M0 703C202 625 353 736 553 654C701 593 789 476 955 528C1109 576 1209 717 1440 620V860H0V703Z" fill="#1F6F8B" fill-opacity="0.32"/>
+  <circle cx="1110" cy="186" r="126" fill="#FFF7E6" fill-opacity="0.76"/>
+  <path d="M193 202C250 128 351 119 420 176C489 233 501 336 443 410C386 484 285 493 216 436C147 379 135 276 193 202Z" fill="#FFFFFF" fill-opacity="0.42"/>
+  <path d="M838 172C898 103 1005 98 1077 161C1148 224 1157 331 1097 400C1037 469 930 474 859 411C787 348 778 241 838 172Z" fill="#FFFFFF" fill-opacity="0.34"/>
+  <path d="M589 663C626 608 704 595 763 635C823 675 842 753 805 808C768 863 690 876 631 836C571 796 552 718 589 663Z" fill="#FFFFFF" fill-opacity="0.26"/>
+  <path d="M205 251C313 321 429 344 551 320C673 296 772 216 900 232C1028 248 1127 357 1244 346" stroke="#18212F" stroke-opacity="0.22" stroke-width="7" stroke-linecap="round" stroke-dasharray="22 28"/>
+  <path d="M295 557C411 502 530 527 621 593C712 659 820 676 927 620C1034 564 1152 492 1289 547" stroke="#18212F" stroke-opacity="0.18" stroke-width="7" stroke-linecap="round" stroke-dasharray="18 24"/>
+  <g filter="url(#pinShadow)">
+    <path d="M1039 380C1039 436 969 514 969 514C969 514 899 436 899 380C899 341.34 930.34 310 969 310C1007.66 310 1039 341.34 1039 380Z" fill="#E56B35"/>
+    <circle cx="969" cy="379" r="25" fill="white"/>
+  </g>
+  <g filter="url(#pinShadow)">
+    <path d="M424 504C424 548 369 610 369 610C369 610 314 548 314 504C314 473.624 338.624 449 369 449C399.376 449 424 473.624 424 504Z" fill="#1F6F8B"/>
+    <circle cx="369" cy="503" r="19" fill="white"/>
+  </g>
+  <defs>
+    <filter id="pinShadow" x="274" y="280" width="805" height="370" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#18212F" flood-opacity="0.24"/>
+    </filter>
+  </defs>
+</svg>

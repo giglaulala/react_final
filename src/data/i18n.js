@@ -9,7 +9,7 @@ export const translations = {
     themeDark: 'Dark',
     languageLabel: 'Language',
     heroEyebrow: 'Responsive React travel app',
-    heroTitle: 'Explore countries, save favorites, and plan your next trip.',
+    heroTitle: 'Explore the world.',
     heroText:
       'Atlas Notes combines live country data with a clean planning experience built with React hooks, router navigation, storage, SCSS, and reusable components.',
     startExploring: 'Start exploring',
@@ -60,7 +60,7 @@ export const translations = {
     themeDark: 'მუქი',
     languageLabel: 'ენა',
     heroEyebrow: 'რესპონსივი React აპლიკაცია',
-    heroTitle: 'დაათვალიერე ქვეყნები, შეინახე რჩეულები და დაგეგმე მოგზაურობა.',
+    heroTitle: 'აღმოაჩინე მსოფლიო.',
     heroText:
       'Atlas Notes აერთიანებს API მონაცემებს და მარტივ დაგეგმვას React Hooks-ის, Router-ის, Storage-ის, SCSS-ის და კომპონენტების გამოყენებით.',
     startExploring: 'ძიების დაწყება',

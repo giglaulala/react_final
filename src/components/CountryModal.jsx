@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { createPortal } from 'react-dom';
 
 export default function CountryModal({ country, copy, onClose }) {
   useEffect(() => {
@@ -18,7 +19,7 @@ export default function CountryModal({ country, copy, onClose }) {
 
   const formattedPopulation = new Intl.NumberFormat().format(country.population);
 
-  return (
+  return createPortal(
     <div className="modal-backdrop" role="presentation" onClick={onClose}>
       <section
         className="country-modal"
@@ -48,6 +49,7 @@ export default function CountryModal({ country, copy, onClose }) {
           Google Maps
         </a>
       </section>
-    </div>
+    </div>,
+    document.body,
   );
 }
