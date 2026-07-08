@@ -1,59 +1,46 @@
 # Atlas Notes
 
-Atlas Notes is a responsive React final project about exploring European countries, saving favorites, and keeping a temporary planning note.
+Atlas Notes არის React-ზე აწყობილი ვებ აპლიკაცია, სადაც მომხმარებელს შეუძლია ქვეყნების მოძებნა, დეტალების ნახვა და რჩეულებში დამატება.
 
-## Features
-
-- 4 pages: Home, Explore, Favorites, About
-- React functional components and React Hooks
-- React Router navigation
-- REST Countries API integration with Axios
-- LocalStorage for favorites, theme, and language
-- SessionStorage for the planning note
-- Country detail modal
-- CSS animations and responsive layout
-- Light and dark themes
-- Georgian and English language modes
-- SCSS styling
-
-## Used Tools
+## გამოყენებული ტექნოლოგიები
 
 - React
-- Vite
+- React Hooks
 - React Router
 - Axios
-- Sass / SCSS
-- ESLint
+- SCSS
+- LocalStorage
+- SessionStorage
+- Vite
 
-## Run Locally
+## ფუნქციონალი
+
+- 4 გვერდი: მთავარი, ძიება, რჩეულები, პროექტის შესახებ
+- API-დან მონაცემების წამოღება
+- ქვეყნის დეტალების მოდალური ფანჯარა
+- რჩეულების შენახვა LocalStorage-ში
+- ჩანაწერის შენახვა SessionStorage-ში
+- მუქი და ღია თემა
+- ქართული და ინგლისური ენა
+- რესპონსივი დიზაინი
+- ანიმაციები
+
+## პროექტის გაშვება
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Build
+## build
 
 ```bash
 npm run build
 ```
 
-## Pages
+## გვერდები
 
-- `/` - landing page with project highlights
-- `/explore` - API-powered country search with detail modal and favorites
-- `/favorites` - saved destinations and session-only planning note
-- `/about` - project tools and assignment summary
-
-## Screenshots
-
-Add screenshots after deployment:
-
-- Home page
-- Explore page
-- Favorites page
-- Dark theme view
-
-## Deployment
-
-The project can be deployed to Netlify, Vercel, GitHub Pages, or another static hosting provider. Build output is generated in the `dist` folder.
+- `/` - მთავარი გვერდი
+- `/explore` - ქვეყნების ძიება
+- `/favorites` - რჩეული ქვეყნები
+- `/about` - პროექტის შესახებ
